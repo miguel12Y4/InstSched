@@ -1,0 +1,1 @@
+docker run --rm --name mi-contenedor-mongodb -p 27017:27017 -v $(pwd)/data:/data/db mongo:latest
